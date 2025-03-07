@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Blood Donation Network</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <h1 style="font-size: 4em;">Online Blood Donation Network</h1>
+        <i class="fa-solid fa-droplet"></i>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#donors">Find Donors</a></li>
+                <li><a href="#register">Register as Donor</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2 style="font-size: 3em;">About Us</h2>
+        <p style="font-size: 2em;">Our mission is to connect blood donors with those in need. We aim to create a community of willing donors to ensure that everyone has access to life-saving blood.</p>
+    </section>
+    <div class="imgs">
+    <img src="blood3.jpg" alt="Blood Donation" style="width: 20%; height: 200px;">
+    <img src="blood4.jpg" alt="Blood Donation" style="width: 20%; height: 200px;">
+    <img src="blood2.avif" alt="Blood Donation" style="width: 20%; height: 200px;">
+    <img src="blood.avif" alt="Blood Donation" style="width: 20%; height: 200px;">
+    <img src="blood.n.webp" alt="Blood Donation" style="width: 20%; height: 200px;">
+    <br>
+    
+    </div>
+    <br>
+    
+    
+
+        
+
+
+    <section id="donors">
+        <h2 style="font-size: 3em;">Find Local Blood Donors</h2>
+        <form>
+            <label for="location" style="font-size: 1em;">Enter your location:</label>
+            <input type="text" id="location" name="location" placeholder="City" required>
+            <button type="submit">Search</button>
+        </form>
+        <div id="donor-list">
+            <!-- Donor results will be displayed here -->
+        </div>
+    </section>
+
+    <section id="register">
+        <h2 style="font-size: 3em;">Register as a Donor</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="blood-type">Blood Type:</label>
+            <select id="blood-type" name="blood-type" required>
+                <option value="">Select Blood Type</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <img src="donate.jpg" alt="Blood Donation" style="width: 100%; height: 500px;">
+
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email:blooddonation network.org</p>
+        <p>Phone:1234567</p>
+        <h1>THANK YOU</h1>
+    </footer>
+</body>
+</html>
